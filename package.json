@@ -1,0 +1,48 @@
+{
+  "name": "jjd-profilepage",
+  "version": "1.0.0",
+  "description": "Joshua deLorimier's Profile Page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdelorim/JJD-ProfilePage.git"
+  },
+  "keywords": [
+    "web",
+    "dev",
+    "joshua",
+    "delorimier",
+    "josh",
+    "delorimier",
+    "trashtrash",
+    "trashtrash",
+    "visuals",
+    "new",
+    "media",
+    "art",
+    "web",
+    "development",
+    "philadelphia",
+    "web",
+    "development",
+    "full",
+    "stack",
+    "development"
+  ],
+  "author": "Joshua deLorimier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jdelorim/JJD-ProfilePage/issues"
+  },
+  "homepage": "https://github.com/Jdelorim/JJD-ProfilePage#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7"
+  }
+}
