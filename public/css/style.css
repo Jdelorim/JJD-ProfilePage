@@ -5,28 +5,41 @@ html, body{
 }
 
 .nav-wrapper {
-background-color: grey;
+background-color: black;
 padding-left: 5%;
 padding-right: 5%;
 
 border: 3px solid whitesmoke;
 }
 .page-footer {
+    background-color: black;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    border: 3px solid whitesmoke;
+   
 }
+nav ul li:hover {
+    background-color: grey;
+    
+ }
 
 .jtitle{
   
     color: white;
     font-size: 30px;
 }
+#jborder{
+    border-bottom: 1.5px solid grey;
+}
+.aboutP{
+    padding: 20px;
+}
 
 @media only screen and (max-width: 600px) {
     .jtitle{
-        color: red;
+        color: white;
         font-size: 18px;
         text-align: center;
     }
