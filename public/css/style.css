@@ -1,9 +1,33 @@
-.nav-wrapper {
-background-color: brown;
-padding-left: 10%;
-  
+html, body{
+    height: 100%;
+    background-color: black;
+    color: wheat;
 }
 
-#nav-mobile {
-    color: orange;
+.nav-wrapper {
+background-color: grey;
+padding-left: 5%;
+padding-right: 5%;
+
+border: 3px solid whitesmoke;
+}
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.jtitle{
+  
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .jtitle{
+        color: red;
+        font-size: 18px;
+        text-align: center;
+    }
 }

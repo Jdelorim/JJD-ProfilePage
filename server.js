@@ -8,10 +8,7 @@ app.use(bodyParser.json());
 
 app.use(express.static("public"));
 
-app.post("/hi", function(req,res) {
-    res.send("sup dawg");
-    console.log("hi");
-});
+
 
 app.listen(PORT, listening);
 

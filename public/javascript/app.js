@@ -1,1 +1,3 @@
-console.log("hello dawg");
+$(document).ready(function() {
+    $(".sidenav").sidenav();
+});
