@@ -5,109 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Joshua deLorimier Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css">
+    
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="./javascript/app.js"></script>
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
-        <a href="index.html" class="jtitle">Joshua deLorimier</a>
-        <div class="right show-on-small">
-        <a href="#" class="sidenav-trigger" data-target="mobile-links">
-            <i class="material-icons">menu</i>
-        </a>
-        </div>
+        <div class="nav-wrapper z-depth-4">
+            <div class="container">
+                <a href="index.html" class="jtitle">Joshua deLorimier</a>
+                    <div class="right">
+                        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <i class="material-icons">menu</i>
+                        </a>
+                    </div>
         <ul class="right hide-on-med-and-down">
             <li><a href="./html/about">About</a></li>
             <li><a href="./html/portfolio.html">Portfolio</a></li>
             <li><a href="./html/contact.html">Contact</a></li>
           </ul>
+            </div>
         </div>
       </nav>
 
-      <ul class="sidenav" id="mobile-links">
+      <ul class="sidenav black text-white" id="mobile-links">
         <li><a href="./html/about">About</a></li>
         <li><a href="./html/portfolio.html">Portfolio</a></li>
         <li><a href="./html/contact.html">Contact</a></li>
       </ul>
        
       <!--  about  -->
-      <div class="container">
-          <div class="jabout">
-             <div class="row">
-                <div class="col s12 teal" id="jborder">
-                    <h4>About</h4>
-                </div>
-                <div class="col s12 cyan">
-                    <div class="aboutP">
-                        <p class="right flow-text">
-                                Joshua deLorimier is a new media artist, 
-                            software developer and interactive motion graphics designer. 
-                            Due to his passion for the real-time integration of sound 
-                            and music, Joshua has crafted a career around the design of 
-                            audio reactive visuals and artwork for live stage concert 
-                            situations. Joshua has designed and performed visuals with 
-                            acclaimed musicians spanning multiple genres. He creates 
-                            custom software designs with mathematical algorithms to 
-                            produce immersive interactive experiences with the 
-                            accompanying music. He is trained formally in motion 
-                            graphics and film editing from Wilmington University in 
-                            Wilmington, DE and Video Symphony in Burbank, CA.
-                            Joshua works fluently with 3D packages and 2D design tools.
-                            He builds custom modified software designed specifically to
-                            handle his unique and meticulous workflow. 
-                            Joshua believes that the tools used in the production 
-                            of creative work are as influential to the process as 
-                            the artist themselves. In the last year, he has expanded 
-                            his portfolio with numerous works including an installation 
-                            entitled “Algorithmic Structures” which was displayed at a local
-                            venue in Newark, Delaware. Joshua has recently begun working on
-                            mobile platforms and is currently concentrating on developing 
-                            virtual reality software.
-                        </p>
-                    </div>
-                </div>
-                <br>
-                <div class="col s12 teal" id="jborder">
-                        <h4>Portfolio</h4>
-                    </div>
-                    <div class="col s12 cyan">
-                        <div class="aboutP">
-                            <p class="right flow-text">
-                                    Joshua deLorimier is a new media artist, 
-                                software developer and interactive motion graphics designer. 
-                                Due to his passion for the real-time integration of sound 
-                                and music, Joshua has crafted a career around the design of 
-                                audio reactive visuals and artwork for live stage concert 
-                                situations. Joshua has designed and performed visuals with 
-                                acclaimed musicians spanning multiple genres. He creates 
-                                custom software designs with mathematical algorithms to 
-                                produce immersive interactive experiences with the 
-                                accompanying music. He is trained formally in motion 
-                                graphics and film editing from Wilmington University in 
-                                Wilmington, DE and Video Symphony in Burbank, CA.
-                                Joshua works fluently with 3D packages and 2D design tools.
-                                He builds custom modified software designed specifically to
-                                handle his unique and meticulous workflow. 
-                                Joshua believes that the tools used in the production 
-                                of creative work are as influential to the process as 
-                                the artist themselves. In the last year, he has expanded 
-                                his portfolio with numerous works including an installation 
-                                entitled “Algorithmic Structures” which was displayed at a local
-                                venue in Newark, Delaware. Joshua has recently begun working on
-                                mobile platforms and is currently concentrating on developing 
-                                virtual reality software.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-          </div>
+        <div class="parallax-container">
+        <div class="parallax"><img src="images/matrixone.jpg"></div>
       </div>
+      
+      <div class="jabout grey darken-4">
+      <div class="container">
+        <div class="row">
+           <div class="col s12 center white-text" id="jborder">
+               <h4>About Me</h4>
+           </div>
+           <div class="col s12 white-text">
+               <div class="aboutP">
+                   <img class="right responsive-img" id="jabout-img" src="./images/joshprofile.jpg" width="300" alt="">
+                   <p class="flow-text" id="jabout-text">
+                       Joshua deLorimier is a full stack web developer, new media artist, 
+                       software developer and interactive motion graphics designer. 
+                       Due to his passion for the real-time integration of sound 
+                       and music, Joshua has crafted a career around the design of 
+                       audio reactive visuals and artwork for live stage concert 
+                       situations. Joshua has designed and performed visuals with 
+                       acclaimed musicians spanning multiple genres. He creates 
+                       custom software designs with mathematical algorithms to 
+                       produce immersive interactive experiences with the 
+                       accompanying music. He is trained formally in motion 
+                       graphics and film editing from Wilmington University in 
+                       Wilmington, DE and Video Symphony in Burbank, CA.
+                       </p>
+                       <br>
+                       <p class="flow-text" id="jabout-text2">
+                       
+                       Joshua works fluently with 3D packages and 2D design tools.
+                       He builds custom modified software designed specifically to
+                       handle his unique and meticulous workflow. 
+                       Joshua believes that the tools used in the production 
+                       of creative work are as influential to the process as 
+                       the artist themselves. In the last year, he has expanded 
+                       his portfolio with numerous works including an installation 
+                       entitled “Algorithmic Structures” which was displayed at a local
+                       venue in Newark, Delaware. Joshua has recently begun working on
+                       mobile platforms and is currently concentrating on developing 
+                       virtual reality software.
+                   </p>
+               </div>
+           </div>
+       </div>
+     </div>
+     </div>
+    
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/whirlwind.jpg"></div>
+      </div>
+      
 
 
 

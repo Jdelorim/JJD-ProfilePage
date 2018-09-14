@@ -1,15 +1,11 @@
-html, body{
-    height: 100%;
-    background-color: black;
-    color: wheat;
-}
+
 
 .nav-wrapper {
 background-color: black;
 padding-left: 5%;
 padding-right: 5%;
+border-bottom: white solid 2px;
 
-border: 3px solid whitesmoke;
 }
 .page-footer {
     background-color: black;
@@ -17,7 +13,7 @@ border: 3px solid whitesmoke;
     left: 0;
     bottom: 0;
     width: 100%;
-    border: 3px solid whitesmoke;
+    border-top: white solid 2px;
    
 }
 nav ul li:hover {
@@ -29,18 +25,66 @@ nav ul li:hover {
   
     color: white;
     font-size: 30px;
+    
 }
 #jborder{
-    border-bottom: 1.5px solid grey;
+    border-bottom: 1.5px solid white;
 }
 .aboutP{
     padding: 20px;
 }
+#jabout-text{
+    text-indent: 20px;
+    font-size: 20px;
+    padding-right: 320px;
+    padding-bottom: 15px;
+}
+#jabout-text2{
 
+    text-indent: 15px;
+    font-size: 20px;
+    
+    padding-bottom: 15px;
+
+}
+/*
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+  }
+   .parallax {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+   }
+   .parallax img {
+     display: none;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+   }
+*/
 @media only screen and (max-width: 600px) {
     .jtitle{
         color: white;
         font-size: 18px;
         text-align: center;
     }
+    #jabout-text{
+        text-indent: 0px;
+        font-size: 20px;
+        margin-top: 280px;
+        padding-right: 0px;
+    }
+    #jabout-text2{
+        text-indent: 0px;
+        font-size: 20px;
+       
+        padding-right: 0px;
+    }
+    
 }
