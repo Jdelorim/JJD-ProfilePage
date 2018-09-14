@@ -19,34 +19,39 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
+    <div class="navbar-fixed white-text">
         <nav>
             <div class="nav-wrapper z-depth-4">
                 <div class="container">
-                    <a href="index.html" class="jtitle">Joshua deLorimier</a>
+                    <a href="index.html"id="jheadTitle">Joshua deLorimier</a>
                     <div class="right">
                         <a href="#" class="sidenav-trigger" data-target="mobile-links">
                             <i class="material-icons">menu</i>
                         </a>
                     </div>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="#aboutMe">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a class="waves-effect waves-light" href="#aboutMe">About</a></li>
+                        <li><a class="waves-effect waves-light" href="#portfolio">Portfolio</a></li>
+                        <li><a class="waves-effect waves-light" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
 
-    <ul class="sidenav black text-white" id="mobile-links">
-        <li><a href="#aboutMe">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <ul class="sidenav black" id="mobile-links">
+        <li><a class="white-text" href="#aboutMe">About</a></li>
+        <li><a class="white-text" href="#portfolio">Portfolio</a></li>
+        <li><a class="white-text" href="#contact">Contact</a></li>
     </ul>
 
     <!--  about  -->
     <div class="parallax-container">
+        
+        <div class="valign-wrapper  h100">
+            <h1 class="white-text overlay center-align z-depth-4 black" id="pT1">Full Stack Developer</h1>
+        </div>
+    
         <div class="parallax"><img src="images/matrixone.jpg">
         </div>
     </div>
@@ -54,7 +59,7 @@
     <div class="jabout grey darken-4">
         <div class="container">
             <div class="row">
-                <div class="col s12 center white-text scrollspy" id="aboutMe">
+                <div class="col s12 center jtitle white-text scrollspy" id="aboutMe">
                     <h4>About Me</h4>
                 </div>
                 <div class="col s12 white-text">
@@ -96,6 +101,15 @@
     </div>
 
     <div class="parallax-container">
+        <div class="card right-align" id="pT2">
+            <div class="card-content">
+                “Website without visitors is like a ship lost in the horizon.”
+                <br> 
+                ― Dr. Christopher Dayagdag
+            </div>
+        </div>
+            
+        </p>
         <div class="parallax grey darken-4"><img src="images/matrixone.jpg"></div>
     </div>
 
@@ -103,7 +117,7 @@
     <section class="portfolio grey darken-4">
         <div class="container">
             <div class="row">
-                <div class="col s12 center white-text scrollspy" id="portfolio">
+                <div class="col s12 center white-text jtitle scrollspy" id="portfolio">
                     <h4>Web Development Portfolio</h4>
                 </div>
             </div>
@@ -172,29 +186,58 @@
         </div>
     </div>
 
+    <section class="contact black white-text">
+        <div class="container">
+            <div class="row">
+                    <div class="col s12 center jtitle white-text scrollspy" id="contact">
+                            <h4>Contact</h4>
+                    </div>
+                <div class="col s6">
+                    <form action="/contact" id="contact-form" method="POST">
+                        <label for="name">Name:</label>
+                        <input class="grey lighten-1" id="name-forum" name="name" type="text" placeholder="Type Your Name" required="required">
+                        <label for="email">Email:</label>
+                        <input class="grey lighten-1" id="email-forum" name="email" type="text" placeholder="Type Your Email" required="required">
+                        <label for="phoneNum">Phone Number:</label>
+                        <input class="grey lighten-1" id="phoneNum-forum" name="phoneNum" type="text" placeholder="Type Your Digits (Not Required)">
+                        
+                    </form>
+                </div>
+                <div class="col s6">
+                    <label for="textarea-form">Message:</label>
+                    <textarea class="grey lighten-1" id="textarea-form" form="contact-form">
+
+                    </textarea>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="parallax-container">
+            <div class="parallax"><img src="images/matrixone.jpg">
+            </div>
+        </div>
+
 
 
 
 
     <!-- footer  -->
     <footer class="page-footer black">
-        <div class="container">
-            <div class="row">
-
-                <div class="col s12">
-
-
-
-
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                    
+                    </div>
+                    <div class="col s6">
+                            <h5>&copy;Joshua deLorimier 2018</h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </footer>
-
-
-
-
+            </div>
+        </footer>
 </body>
 
 </html>
