@@ -17,5 +17,11 @@ $(document).ready(function(){
     
     $('.parallax').parallax();
     $('.sidenav').sidenav();
-
+    
+    var elems = document.querySelectorAll('.scrollspy');
+     M.ScrollSpy.init(elems,{
+        scrollOffset: 100
+     });
+    
+      
 });

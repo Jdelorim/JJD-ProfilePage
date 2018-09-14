@@ -30,7 +30,10 @@ nav ul li:hover {
 #jborder{
     border-bottom: 1.5px solid white;
 }
-.aboutP{
+#aboutMe{
+    border-bottom: 2px white solid;
+}
+.aboutMe{
     padding: 20px;
 }
 #jabout-text{
@@ -43,9 +46,11 @@ nav ul li:hover {
 
     text-indent: 15px;
     font-size: 20px;
-    
     padding-bottom: 15px;
 
+}
+.card-title {
+    opacity: .8;
 }
 /*
 .parallax-container {
